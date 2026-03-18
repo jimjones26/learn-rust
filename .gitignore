@@ -1,0 +1,22 @@
+# Rust build artifacts
+/target/
+**/target/
+
+# Cargo lock for binaries (keep for libraries)
+# Since this is a learning repo with binaries, we'll track Cargo.lock
+# Uncomment below to ignore it:
+# Cargo.lock
+
+# Editor/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated docs
+/doc/
